@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	
+<movie width="13" height="13" framerate="2">
+  <background color="#ffffff"/>
+  <clip id="zero" import="pacman0.svg"/>
+  <clip id="one" import="pacman1.svg"/>
+  <clip id="two" import="pacman2.svg"/>
+  <library>
+    <clip id="PlayerImage">
+    <!--Opening-->
+      <frame name="closed">
+            <place id="zero" depth="1"/>
+            <stop/>
+      </frame>
+      <frame name="firstOpen">
+            <place id="one" depth="1"/>
+            <stop/>
+      </frame>
+      <frame name="moreOpen">
+            <place id="two" depth="1"/>
+            <stop/>
+      </frame>
+      <!--Closing-->
+      <frame name="closingAgain">
+            <place id="one" depth="1"/>
+            <stop/>
+      </frame>
+    </clip>
+  </library>
+</movie>
