@@ -7,5 +7,7 @@ class Main extends flash.display.MovieClip{
         var pacman:PlayerImage = new PlayerImage();
         stage.addChild(pacman);
         pacman.nextFrame();
+        pacman.nextFrame();
+        pacman.gotoAndPlay("closed");
     }
 }

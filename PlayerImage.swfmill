@@ -2,9 +2,15 @@
 	
 <movie width="13" height="13" framerate="2">
   <background color="#ffffff"/>
+  <!--SVG doesn't want to work, but png works fine, I wish I understood why-->
+  <!--
   <clip id="zero" import="pacman0.svg"/>
   <clip id="one" import="pacman1.svg"/>
   <clip id="two" import="pacman2.svg"/>
+  -->
+  <clip id="zero" import="pacman0.png"/>
+  <clip id="one" import="pacman1.png"/>
+  <clip id="two" import="pacman2.png"/>
   <library>
     <clip id="PlayerImage">
     <!--Opening-->
